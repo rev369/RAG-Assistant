@@ -1,7 +1,5 @@
-<<<<<<< HEAD
 # RAG-Assistant
 A RAG chatbot which can processes PDF files
-=======
 # 🤖 RAG Chatbot
 
 A Retrieval-Augmented Generation (RAG) chatbot built with Streamlit, LangChain, and Ollama. Upload PDF documents and ask questions about their content!
@@ -151,4 +149,3 @@ Feel free to submit issues, feature requests, or pull requests to improve this R
 ---
 
 **Happy Document Chatting! 📚💬** 
->>>>>>> a2f169f (initial commit)
