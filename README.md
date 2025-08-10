@@ -136,7 +136,6 @@ RAG2/
 - Documents are processed locally on your machine
 - No data is sent to external services (except Ollama if using remote)
 - Temporary files are automatically cleaned up
-- Embeddings are stored locally in the `embeddings_folder`
 
 ## 📝 License
 
