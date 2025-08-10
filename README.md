@@ -47,7 +47,7 @@ A Retrieval-Augmented Generation (RAG) chatbot built with Streamlit, LangChain, 
 
 6. **Run the application**:
    ```bash
-   streamlit run ragbot.py
+   streamlit run app.py
    ```
 
 5. **Open your browser** and navigate to `http://localhost:8501`
@@ -80,10 +80,12 @@ A Retrieval-Augmented Generation (RAG) chatbot built with Streamlit, LangChain, 
 
 ### File Structure
 ```
-RAG2/
-├── ragbot.py          # Main Streamlit application
-├── datastore.py       # Document processing and vector DB creation
-├── retriver.py        # Document retrieval and search
+RAG-Assistant
+├── app.py          # Main Streamlit application 
+├── utils
+      ├── datastore.py  # Document processing and vector DB creation
+      ├── retriver.py   # Document retrieval and search
+      ├── memory_cleanup.py  # Delete created embeddings
 ├── pyroject.toml   # Python dependencies
 └── README.md         # This file
 ```

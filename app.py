@@ -1,9 +1,9 @@
 import streamlit as st
 from langchain_ollama import ChatOllama
 from langchain_core.messages import HumanMessage, SystemMessage, AIMessage
-from datastore import db_init
-from retriver import db_retriever
-from memory_cleanup import clear_chat_and_reset, setup_session
+from utils.datastore import db_init
+from utils.retriver import db_retriever
+from utils.memory_cleanup import clear_chat_and_reset, setup_session
 import os
 
 # Page configuration
