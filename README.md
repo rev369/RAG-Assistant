@@ -84,7 +84,7 @@ RAG2/
 ├── ragbot.py          # Main Streamlit application
 ├── datastore.py       # Document processing and vector DB creation
 ├── retriver.py        # Document retrieval and search
-├── requirements.txt   # Python dependencies
+├── pyroject.toml   # Python dependencies
 └── README.md         # This file
 ```
 
