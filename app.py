@@ -179,7 +179,7 @@ with st.sidebar:
                     for doc_name in sorted(doc_names):
                         st.write(f"• {doc_name}")
                     
-                    st.info("💡 You can ask questions about specific documents by saying 'in document [name]' or 'from file [name]'")
+                    st.info("""💡 You can ask questions about specific documents by saying 'in document name' or 'from file name'""")
                 else:
                     st.write("Documents loaded (names not available)")
             except Exception as e:
