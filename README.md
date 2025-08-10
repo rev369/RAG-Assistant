@@ -61,7 +61,7 @@ A Retrieval-Augmented Generation (RAG) chatbot built with Streamlit, LangChain, 
 
 ### 2. Ask Questions
 - Type your questions in the chat interface
-- Sara will search through your documents and provide relevant answers
+- bot will search through your documents and provide relevant answers
 - You can ask general questions too (when no documents are uploaded)
 
 ### 3. Chat Features
@@ -86,7 +86,7 @@ RAG-Assistant
       ├── datastore.py  # Document processing and vector DB creation
       ├── retriver.py   # Document retrieval and search
       ├── memory_cleanup.py  # Delete created embeddings
-├── pyroject.toml   # Python dependencies
+├── pyproject.toml   # Python dependencies
 └── README.md         # This file
 ```
 
