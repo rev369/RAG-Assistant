@@ -102,7 +102,7 @@ RAG-Assistant
 - Returns relevant document chunks with metadata
 - Includes similarity scoring and filtering
 
-#### `ragbot.py`
+#### `app.py`
 - Main Streamlit interface
 - Manages chat flow and RAG integration
 - Handles user interactions and responses
